@@ -1,0 +1,367 @@
+.birinci {
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.birinci:hover {
+
+    color: red;
+    transition: 0.5s;
+}
+
+.CV {
+    margin-left: 300px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.CV:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+ul {
+    background-color: grey;
+    list-style-type: none;              
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+ul li {
+    margin-right: -10px;
+    margin-left: 10px;
+    display: inline-block;               
+    width: 100px;
+    padding: 20px;
+}
+
+
+
+ul li a {
+    text-decoration: none;          
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+i {
+    padding-right: 10px;                
+    
+}
+
+
+
+#skills-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: 31px;
+    width: 130px;
+}
+
+#skills-content ul li {
+
+    margin-left: -50px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.skills-li:hover #skills-content {
+    display: block;
+}
+
+.skills-border {
+    border-radius: 5px;
+}
+
+#telecom-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: -15px;
+    margin-left: 170;
+    width: 300px;
+}
+
+#telecom-li li {
+
+    display: block;
+    margin-left: 100px;
+    width: 500px;
+    padding: 10px;
+}
+
+#telecom-li {
+    border-radius: 5px;
+    width: 130px;
+}
+
+#telecom-li li a {
+    margin-left: 10px;
+}
+
+.telecom-skills:hover #telecom-content {
+    display: block;
+}
+
+#program-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: -15px;
+    margin-left: 170;
+    width: 150px;
+}
+
+#program-li li {
+    display: block;
+    width: 500px;
+    padding: 10px;
+}
+
+#program-li li a {
+    margin-left: 10px;
+}
+
+.program-skills:hover #program-content {
+    display: block;
+}
+
+#program-li {
+    border-radius: 5px;
+}
+
+#work-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: 31px;
+    width: 130px;
+}
+
+#work-content ul li {
+
+    margin-left: -50px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    width: 200px;
+}
+
+.work-li:hover #work-content {
+    display: block;
+}
+
+.work-border {
+    border-radius: 5px;
+}
+
+#electra-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: -15px;
+    margin-left: 170px;
+    width: 100px;
+}
+
+.electra-border {
+    border-radius: 5px;
+}
+
+.electra-li:hover #electra-content {
+    display: block;
+}
+
+#electrafirstyear-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: -15px;
+    margin-left: 140px;
+    width: 350px;
+}
+
+#electrafirstyear-content ul li {
+    width: 350px;
+}
+
+.electrafirstyear-border {
+    border-radius: 5px;
+}
+
+.electrafirstyear-li:hover #electrafirstyear-content {
+    display: block;
+}
+
+#electrasecondyear-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-top: -15px;
+    margin-left: 140px;
+    width: 350px;
+}
+
+.electrasecondyear-border {
+    border-radius: 5px;
+
+}
+
+#electrasecondyear-content ul li {
+    width: 350px;
+}
+
+.electrasecondyear-li:hover #electrasecondyear-content {
+    display: block;
+}
+
+#noya-content {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 170px;
+    margin-top: -15px;
+}
+
+.noya-border {
+    border-radius: 5px;
+}
+
+.noya-li:hover #noya-content {
+    display: block;
+}
+
+#noya-content ul li:nth-child(1) {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: inherit;
+    color: black;
+}
+
+
+#dt-photo {
+    width: 100%;
+
+}
+
+#photo-one {
+    width: 102.2%;
+    height: 50%;
+    margin-top: -16px;
+    margin-left: -8px;
+
+}
+
+#dt-photo {
+    width: 100%;
+}
+
+#html-one {
+    width: 102.2%;
+    height: 35%;
+    margin-left: -8px;
+}
+
+#div-about {
+    background-color: grey;
+    width: 101%;
+    margin-left: -8px;
+    margin-top: -20px;
+
+}
+
+#about-me {
+    margin-top: -19px;
+    width: 100%;
+    height: 88px;
+    margin-left: 3px;
+    text-align: center;
+
+}
+
+#aboutme-word {
+    text-align: center;
+}
+
+#aboutme-word:hover {
+    color: red;
+}
+
+#contact-content{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 10px;
+    margin-top: 31px;
+}
+
+.contact-li:hover #contact-content{
+    display: block;
+
+}
+#contact-ul li{
+    display: block;
+    margin-left: -40px;
+}
+#contact-ul{
+    border-radius: 5px;
+}
+
+#mail-content{
+    position:absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 150px;
+    margin-top: -20px;
+    width: 250px;
+}
+#mail-ul{
+    height: 50px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+
+#madres{
+    display: block;
+    width: 200px;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+.mail-li:hover #mail-content{
+    display: block;
+}
+#phone-content{
+    position:absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 150px;
+    margin-top: -20px;
+    width: 140px;
+}
+#number{
+    display: none;
+    width: 150px;
+    color: white;
+    size: bold;
+    margin-top: -5px;
+
+}
+#phone-ul{
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+}
+.phone-li:hover #phone-content{
+    display: block;
+}
